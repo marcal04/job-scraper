@@ -1,0 +1,13 @@
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/jobscraper
+spring.datasource.username=SEU_USUARIO
+spring.datasource.password=SUA_SENHA
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=false
+spring.jpa.open-in-view=false
+
+jooble.api.key=${JOOBLE_API_KEY}
+jooble.api.url=https://jooble.org/api/
+
+server.port=8080
